@@ -37,6 +37,9 @@ const HeroSection = () => {
       </div>
       {/* Right Section */}
       <Spline className="absolute xl:right-[-28%] right-0 top-[]-20% lg:top-0" scene="https://prod.spline.design/u5HGRlZ58EaJzr3Q/scene.splinecode" />
+
+      {/* watermark cover */}
+      <div className="w-full right-0 lg:hidden  bg-black shadow-xl h-[40px] absolute bottom-[18px] rounded-lg  backdrop-blur-md"></div>
  
 
     </section>
